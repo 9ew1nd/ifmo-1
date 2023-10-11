@@ -4,7 +4,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.TreeSet;
 import Data.Dragon;
 
-/** Класс хранящий коллекцию
+/** Класс, хранящий коллекцию
  */
 public class DragonCollection{
     private TreeSet<Dragon> collection;
@@ -15,7 +15,7 @@ public class DragonCollection{
         this.initDate = initDate;
     }
 
-    /** Метод позволяющий получить информацию о коллекции
+    /** Метод, позволяющий получить информацию о коллекции
      * @return String
      */
     public String info() {
@@ -50,21 +50,21 @@ public class DragonCollection{
         }
     }
 
-    /** Метод позволяющий добавить элеменет в коллекцию
+    /** Метод, позволяющий добавить элеменет в коллекцию
      * @param dragon
      */
     public void add(Dragon dragon){
         collection.add(dragon);
     }
 
-    /** Метод позволяющий удалить элемент по id
+    /** Метод, позволяющий удалить элемент по id
      * @param id
      */
     public void removeById(Long id) {
         collection.removeIf(unhappy -> unhappy.getId() == id);
     }
 
-    /** Метод проверяющий содержится ли элемент с таким id
+    /** Метод, проверяющий содержится ли элемент с таким id
      * в коллекции
      * @param id
      * @return bool
@@ -79,7 +79,7 @@ public class DragonCollection{
         return flag;
     }
 
-    /** Метод очищающий коллекцию
+    /** Метод, очищающий коллекцию
      */
     public void clear(){
         collection.clear();
