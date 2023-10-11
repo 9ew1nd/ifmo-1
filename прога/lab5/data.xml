@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><dragons>
+    <dragon id="1">
+        <name>1</name>
+        <coordinates>
+            <coord_X>1.0</coord_X>
+            <coord_Y>1</coord_Y>
+        </coordinates>
+        <creation_date>2023-10-10T14:21:37.201137700</creation_date>
+        <age>1</age>
+        <wingspan>1.0</wingspan>
+        <weight>1.0</weight>
+        <character>GOOD</character>
+        <cave>
+            <depth>4</depth>
+        </cave>
+    </dragon>
+    <dragon id="2">
+        <name>test</name>
+        <coordinates>
+            <coord_X>2.0</coord_X>
+            <coord_Y>2</coord_Y>
+        </coordinates>
+        <creation_date>2023-10-11T00:00:06.386758700</creation_date>
+        <age>2</age>
+        <wingspan>2.0</wingspan>
+        <weight>2.0</weight>
+        <character>FICKLE</character>
+        <cave>
+            <depth>2</depth>
+        </cave>
+    </dragon>
+    <dragon id="3">
+        <name>rrr</name>
+        <coordinates>
+            <coord_X>1.0</coord_X>
+            <coord_Y>1</coord_Y>
+        </coordinates>
+        <creation_date>2023-10-11T00:11:31.381936900</creation_date>
+        <age>1</age>
+        <wingspan>1.0</wingspan>
+        <weight>1.0</weight>
+        <character>GOOD</character>
+        <cave>
+            <depth>1</depth>
+        </cave>
+    </dragon>
+</dragons>

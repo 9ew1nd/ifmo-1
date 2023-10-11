@@ -1,0 +1,9 @@
+show 
+info
+help
+execute_script script.txt
+add 
+1
+2
+3
+
